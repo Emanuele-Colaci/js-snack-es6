@@ -13,5 +13,5 @@ const new_vip = vip.map((nome, index) =>{
 console.log(new_vip)
 
 // Generazione e stampa della lista dei posti occupati
-const postiOccupati = new_vip.map((vip) => vip['nome ospite'] + ' ' + vip['posto occupato']);
+const postiOccupati = new_vip.map((vip) => vip['posto occupato']);
 console.log(postiOccupati);
